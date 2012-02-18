@@ -1,0 +1,18 @@
+
+small circuit that controls a APC SMART ups remotely via an Intertechno [1] relay. files are compatible with Eagle CAD 6.0+.
+
+author:	 Petre Rodan <petre.rodan@simplex.ro>
+version: rev1
+license: GPLv3
+
+the ups has two different buttons for power-on and off, and they need to be pushed at least a few seconds to activate. a single RF relay [1] will provide input to the board where edge triggering and two monostables and will control 2 small reed relays linked in parallel with the UPS buttons.
+
+the board and the rf relay fit behind the plastic front pannel of the ups.
+
+tested with
+ APC Smart-UPS 1000VA USB & Serial 230V (sku sua1000i) [2]
+ APC Smart-UPS 1500VA USB & Serial 230V (sku sua1500i) [3]
+
+[1] http://www.intertechno.at/produkte/empfaenger/schalter/CMR-1224.html
+[2] http://www.apc.com/resource/include/techspec_index.cfm?base_sku=sua1000i
+[3] http://www.apc.com/resource/include/techspec_index.cfm?base_sku=sua1500i
