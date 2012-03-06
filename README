@@ -7,7 +7,7 @@ license: GPLv3
 
 the ups has two different buttons for power-on and off, and they need to be pushed at least a few seconds to activate. a single RF relay [1] will provide input to the board where edge triggering and two monostables and will control 2 small reed relays linked in parallel with the UPS buttons.
 
-the board and the rf relay fit behind the plastic front pannel of the ups.
+the board and the rf relay fit behind the plastic front pannel of the ups. see some pictures of the setup here [4].
 
 tested with
  APC Smart-UPS 1000VA USB & Serial 230V (sku sua1000i) [2]
@@ -16,3 +16,4 @@ tested with
 [1] http://www.intertechno.at/produkte/empfaenger/schalter/CMR-1224.html
 [2] http://www.apc.com/resource/include/techspec_index.cfm?base_sku=sua1000i
 [3] http://www.apc.com/resource/include/techspec_index.cfm?base_sku=sua1500i
+[4] https://picasaweb.google.com/petre.rodan/APCUpsRemoteControl
