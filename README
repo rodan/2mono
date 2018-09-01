@@ -1,7 +1,7 @@
 
 small circuit that controls a APC SMART ups remotely via an Intertechno [1] relay. files are compatible with Eagle CAD 6.0+.
 
-author:	 Petre Rodan <petre.rodan@simplex.ro>
+author:	 Petre Rodan <2b4eda@subdimension.ro>
 version: rev1
 license: GPLv3
 
